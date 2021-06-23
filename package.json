@@ -8,11 +8,10 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",
     "globby": "^11.0.0",
     "isomorphic-unfetch": "^3.0.0",
-    "next": "9.5.3",
+    "next": "^10.2.3",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.5.4",
     "prettier": "^2.1.2",
@@ -33,6 +32,6 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "next-sitemap": "^1.2.4"
+    "next-sitemap": "^1.6.124"
   }
 }
