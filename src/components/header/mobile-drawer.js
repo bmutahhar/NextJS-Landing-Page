@@ -10,29 +10,29 @@ import menuItems from "./header.data";
 
 const social = [
   {
-    path: "/",
+    path: "https://www.facebook.com/mutahharbinmuzaffar",
     icon: <FaFacebookF />,
   },
   {
-    path: "/",
+    path: "https://www.linkedin.com/in/mutahhar-bin-muzaffar/",
     icon: <FaLinkedin />,
   },
   {
-    path: "/",
-    icon: <FaGithub />,
-  },
-  {
-    path: "/",
+    path: "https://www.upwork.com/o/profiles/users/~01f5a00c5d3ba62efc/",
     icon: <SiUpwork />,
   },
   {
-    path: "/",
+    path: "https://www.fiverr.com/mutahhar_bm",
     icon: <SiFiverr />,
   },
 ];
 
 export default function MobileDrawer() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const toggleDrawer = () => {
+    setIsDrawerOpen((prev) => !prev);
+  };
 
   return (
     <Drawer
@@ -43,7 +43,7 @@ export default function MobileDrawer() {
         </Box>
       }
       open={isDrawerOpen}
-      toggleHandler={() => setIsDrawerOpen((prev) => !prev)}
+      toggleHandler={toggleDrawer}
       closeButton={<IoMdClose size="24px" color="#000" />}
       drawerStyle={styles.drawer}
       closeBtnStyle={styles.close}
@@ -60,6 +60,7 @@ export default function MobileDrawer() {
                 offset={-70}
                 duration={500}
                 key={i}
+                onClick={toggleDrawer}
               >
                 {menuItem.label}
               </Link>

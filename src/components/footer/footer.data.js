@@ -1,24 +1,24 @@
 export default {
   menuItem: [
     {
-      path: '/',
-      label: 'Home',
+      path: "https://www.upwork.com/o/profiles/users/~01f5a00c5d3ba62efc/",
+      label: "Home",
     },
     {
-      path: '/',
-      label: 'Adversite',
+      path: "https://www.upwork.com/o/profiles/users/~01f5a00c5d3ba62efc/",
+      label: "Adversite",
     },
     {
-      path: '/',
-      label: 'Supports',
+      path: "https://www.upwork.com/o/profiles/users/~01f5a00c5d3ba62efc/",
+      label: "Supports",
     },
     {
-      path: '/',
-      label: 'Marketing',
+      path: "https://www.upwork.com/o/profiles/users/~01f5a00c5d3ba62efc/",
+      label: "Marketing",
     },
     {
-      path: '/',
-      label: 'Contact',
+      path: "https://www.upwork.com/o/profiles/users/~01f5a00c5d3ba62efc/",
+      label: "Contact",
     },
   ],
 };

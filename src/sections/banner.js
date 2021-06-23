@@ -17,7 +17,16 @@ export default function Banner() {
             Check out our website to find great software products and deals! If
             you need a website or a web application, this is the place!
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button
+            variant="primary"
+            onClick={() =>
+              document
+                .getElementById("pricing")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          >
+            Explore
+          </Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner" />

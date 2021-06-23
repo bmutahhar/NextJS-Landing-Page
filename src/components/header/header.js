@@ -14,7 +14,7 @@ export default function Header({ className }) {
         <Logo
           src={LogoDark}
           sx={{
-            height: 100,
+            height: 50,
           }}
         />
         <Flex as="nav" sx={styles.nav}>
@@ -36,10 +36,16 @@ export default function Header({ className }) {
           className="donate__btn"
           variant="secondary"
           aria-label="Get Started"
+          onClick={() =>
+            window.open(
+              "https://www.upwork.com/o/profiles/users/~01f5a00c5d3ba62efc/",
+              "_blank"
+            )
+          }
         >
           Get Started
         </Button>
-        <MobileDrawer/>
+        <MobileDrawer />
       </Container>
     </header>
   );

@@ -11,7 +11,7 @@ const data = {
   description:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat natus repellat debitis iste magnam sequi, facilis quod. Nisi, eos rerum.",
   btnName: "Get Started",
-  btnURL: "#",
+  btnURL: "https://www.upwork.com/o/profiles/users/~01f5a00c5d3ba62efc/",
 };
 
 export default function CoreFeature() {
